@@ -2,7 +2,7 @@
 
 English | [日本語](README_JP.md)
 
-These are public copies of existing code comparing group B (liver resection without resection of extrahepatic disease) with group C (neither liver nor extrahepatic resection) in patients with colorectal liver metastases and extrahepatic disease. The source files have not been modified. Patient data are not distributed.
+These are public copies of existing code comparing group B (liver resection without resection of extrahepatic disease) with group C (neither liver nor extrahepatic resection) in patients with colorectal liver metastases and extrahepatic disease. Patient data are not distributed.
 
 ## Included analyses
 
