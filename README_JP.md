@@ -2,6 +2,8 @@
 
 [English](README.md) | 日本語
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22747534.svg)](https://doi.org/10.5281/zenodo.22747534)
+
 Analysis code for colorectal liver metastases with extrahepatic disease.
 
 既存プロジェクトから研究解析コードを選定した、GitHub・Zenodo公開準備用のフォルダです。準備日: 2026-09-08。元ファイルを変更せず、公開用コピーの個人用パス・内部リンク等を整理しています。患者単位のデータセットは含みません。
@@ -67,7 +69,11 @@ RのRMSTコードは `_mi_m=1` のみを使う既存の検証解析です。22�
 
 リポジトリは [sankyoh/crlm-extrahepatic-analysis](https://github.com/sankyoh/crlm-extrahepatic-analysis) です。ソフトウェアの著者は Toshiharu Mitsuhashi（[ORCID: 0000-0001-9940-0570](https://orcid.org/0000-0001-9940-0570)）です。引用情報は [CITATION.cff](CITATION.cff) に記載しています。このコードを研究に利用する際は、本ソフトウェアを引用してください。
 
-初回のソフトウェアの版番号は **1.0.0**、リリース日は **2026-09-14** です。リリースは [GitHubのReleasesページ](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases) に掲載します。Zenodoへの保存とDOIの発行は準備中です。DOIの取得後は、解析に使用したソフトウェアの版に対応するDOIを引用してください。
+**2026-09-14** に公開した **1.0.0** 版を [Zenodo](https://zenodo.org/records/22747534) に保存しています。[GitHub Release v1.0.0](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases/tag/v1.0.0) からも取得できます。論文では、解析に使用した版に対応するDOIを引用してください。
+
+> Mitsuhashi, T. (2026). *Analysis code for colorectal liver metastases with extrahepatic disease* (Version 1.0.0) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.22747534](https://doi.org/10.5281/zenodo.22747534)
+
+[全バージョン共通のDOI](https://doi.org/10.5281/zenodo.22747533) はソフトウェア全体を表し、最新版へ移動します。上記の引用例は、1.0.0版を特定するDOIを使用しています。
 
 初回の公開準備（2026-09-08）では、コード選定、公開向け整備、コードブック作成、静的確認を実施しました。その後の実行検証（2026-09-14）の結果と制限は、上記「再現性の確認範囲と既知の制限」に記載しています。
 

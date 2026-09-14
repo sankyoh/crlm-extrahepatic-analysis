@@ -10,6 +10,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-9940-0570"
 repository-code: "https://github.com/sankyoh/crlm-extrahepatic-analysis"
 license: MIT
+doi: "10.5281/zenodo.22747534"
 abstract: >-
   Analysis code for a study of colorectal liver metastases with extrahepatic disease.
   Includes Stata multiple imputation, propensity-score weighting, covariate balance

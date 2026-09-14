@@ -2,6 +2,8 @@
 
 English | [日本語](README_JP.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22747534.svg)](https://doi.org/10.5281/zenodo.22747534)
+
 This directory contains research analysis code selected from an existing project and prepared for publication on GitHub and Zenodo. Initial preparation date: 2026-09-08. User-specific paths and internal links have been removed from the public copies without modifying the source files. No patient-level datasets are included.
 
 Dataset preparation and cleaning code is excluded from the public release. The standard Stata workflow starts from separately prepared, private analysis inputs. Multiple imputation and estimation of propensity scores and weights are included as statistical analysis methods.
@@ -65,7 +67,11 @@ The `.gitignore` file explicitly allows individual files reviewed for publicatio
 
 The repository is hosted at [sankyoh/crlm-extrahepatic-analysis](https://github.com/sankyoh/crlm-extrahepatic-analysis). The software author is Toshiharu Mitsuhashi ([ORCID: 0000-0001-9940-0570](https://orcid.org/0000-0001-9940-0570)). Citation metadata is provided in [CITATION.cff](CITATION.cff). If you use this code in research, please cite this software.
 
-The initial software version is **1.0.0**, with a release date of **2026-09-14**. Releases are listed on the [GitHub Releases page](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases). Zenodo archiving and DOI assignment are pending. Once the DOI is available, please cite the DOI of the specific software version used in your analysis.
+Version **1.0.0**, released on **2026-09-14**, is archived on [Zenodo](https://zenodo.org/records/22747534) and available as [GitHub Release v1.0.0](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases/tag/v1.0.0). Please cite the DOI for the specific version used in your analysis.
+
+> Mitsuhashi, T. (2026). *Analysis code for colorectal liver metastases with extrahepatic disease* (Version 1.0.0) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.22747534](https://doi.org/10.5281/zenodo.22747534)
+
+The [all-version DOI](https://doi.org/10.5281/zenodo.22747533) represents the software across releases and resolves to the latest version. The citation above identifies version 1.0.0 specifically.
 
 The initial preparation on 2026-09-08 covered code selection, preparation of public copies, codebook creation, and static review. Results and limitations of the subsequent execution checks on 2026-09-14 are described above under “Reproducibility checks and known limitations.”
 
