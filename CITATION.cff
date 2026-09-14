@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+type: software
+title: "Analysis code for colorectal liver metastases with extrahepatic disease"
+authors:
+  - family-names: Mitsuhashi
+    given-names: Toshiharu
+    orcid: "https://orcid.org/0000-0001-9940-0570"
+repository-code: "https://github.com/sankyoh/crlm-extrahepatic-analysis"
+license: MIT
+abstract: >-
+  Analysis code for a study of colorectal liver metastases with extrahepatic disease.
+  Includes Stata multiple imputation, propensity-score weighting, covariate balance
+  assessment, and survival analyses; R restricted mean survival time analyses using
+  the first imputed dataset; and historical Python code for averaging balance tables.
+  Requires separately prepared private analysis datasets. Patient-level data and
+  dataset preparation and cleaning code are not included. See the README for
+  reproducibility checks and known limitations.
+keywords:
+  - colorectal liver metastases
+  - extrahepatic disease
+  - multiple imputation
+  - propensity score weighting
+  - survival analysis
+  - restricted mean survival time

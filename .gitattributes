@@ -1,0 +1,3 @@
+# Preserve the exact bytes checked during publication preparation.
+# Some unchanged source files retain their original line endings.
+* -text

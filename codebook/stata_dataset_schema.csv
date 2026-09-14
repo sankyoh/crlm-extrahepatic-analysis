@@ -1,0 +1,322 @@
+﻿dataset,position,variable,storage_type,display_format,variable_label,value_label_name,stored_value_labels
+df01mi.dta,1,id,str6,%9s,全体通し番号,,
+df01mi.dta,2,sex,byte,%10.0g,sex,,
+df01mi.dta,3,age,double,%10.0g,年齢,,
+df01mi.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df01mi.dta,5,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df01mi.dta,6,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df01mi.dta,7,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df01mi.dta,8,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df01mi.dta,9,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df01mi.dta,10,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df01mi.dta,11,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df01mi.dta,12,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df01mi.dta,13,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df01mi.dta,14,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df01mi.dta,15,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df01mi.dta,16,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df01mi.dta,17,cea,double,%10.0g,肝転移診断時CEA,,
+df01mi.dta,18,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df01mi.dta,19,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df01mi.dta,20,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df01mi.dta,21,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df01mi.dta,22,time_os_d,int,%10.0g,生存日数,,
+df01mi.dta,23,time_os_m,double,%10.0g,生存月数,,
+df01mi.dta,24,grade_mind,byte,%9.0g,missin indicator of grade,,
+df01mi.dta,25,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df01mi.dta,26,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df01mi.dta,27,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df01mi.dta,28,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df01mi.dta,29,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df01mi_surgery.dta,1,id,str6,%9s,全体通し番号,,
+df01mi_surgery.dta,2,sex,byte,%10.0g,sex,,
+df01mi_surgery.dta,3,age,double,%10.0g,年齢,,
+df01mi_surgery.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df01mi_surgery.dta,5,opeday,str16,%16s,原発巣手術日,,
+df01mi_surgery.dta,6,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df01mi_surgery.dta,7,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df01mi_surgery.dta,8,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df01mi_surgery.dta,9,ehd2,byte,%14.0g,Site of extrahepatic metastasis,ehd2,0=M1 (Lung); 1=M1 (Peri); 2=M1 (LN/others); 3=multiple
+df01mi_surgery.dta,10,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df01mi_surgery.dta,11,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df01mi_surgery.dta,12,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df01mi_surgery.dta,13,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df01mi_surgery.dta,14,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df01mi_surgery.dta,15,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df01mi_surgery.dta,16,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df01mi_surgery.dta,17,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df01mi_surgery.dta,18,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df01mi_surgery.dta,19,cea,double,%10.0g,肝転移診断時CEA,,
+df01mi_surgery.dta,20,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df01mi_surgery.dta,21,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df01mi_surgery.dta,22,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df01mi_surgery.dta,23,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df01mi_surgery.dta,24,time_os_d,int,%10.0g,生存日数,,
+df01mi_surgery.dta,25,time_os_m,double,%10.0g,生存月数,,
+df01mi_surgery.dta,26,grade_mind,byte,%9.0g,missin indicator of grade,,
+df01mi_surgery.dta,27,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df01mi_surgery.dta,28,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df01mi_surgery.dta,29,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df01mi_surgery.dta,30,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df01mi_surgery.dta,31,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df01mi_lung.dta,1,id,str6,%9s,全体通し番号,,
+df01mi_lung.dta,2,sex,byte,%10.0g,sex,,
+df01mi_lung.dta,3,age,double,%10.0g,年齢,,
+df01mi_lung.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df01mi_lung.dta,5,opeday,str16,%16s,原発巣手術日,,
+df01mi_lung.dta,6,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df01mi_lung.dta,7,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df01mi_lung.dta,8,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df01mi_lung.dta,9,ehd2,byte,%14.0g,Site of extrahepatic metastasis,ehd2,0=M1 (Lung); 1=M1 (Peri); 2=M1 (LN/others); 3=multiple
+df01mi_lung.dta,10,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df01mi_lung.dta,11,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df01mi_lung.dta,12,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df01mi_lung.dta,13,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df01mi_lung.dta,14,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df01mi_lung.dta,15,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df01mi_lung.dta,16,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df01mi_lung.dta,17,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df01mi_lung.dta,18,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df01mi_lung.dta,19,cea,double,%10.0g,肝転移診断時CEA,,
+df01mi_lung.dta,20,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df01mi_lung.dta,21,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df01mi_lung.dta,22,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df01mi_lung.dta,23,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df01mi_lung.dta,24,time_os_d,int,%10.0g,生存日数,,
+df01mi_lung.dta,25,time_os_m,double,%10.0g,生存月数,,
+df01mi_lung.dta,26,grade_mind,byte,%9.0g,missin indicator of grade,,
+df01mi_lung.dta,27,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df01mi_lung.dta,28,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df01mi_lung.dta,29,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df01mi_lung.dta,30,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df01mi_lung.dta,31,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df02mi.dta,1,id,str6,%9s,全体通し番号,,
+df02mi.dta,2,sex,byte,%10.0g,sex,,
+df02mi.dta,3,age,double,%10.0g,年齢,,
+df02mi.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df02mi.dta,5,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df02mi.dta,6,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df02mi.dta,7,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df02mi.dta,8,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df02mi.dta,9,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df02mi.dta,10,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df02mi.dta,11,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df02mi.dta,12,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df02mi.dta,13,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df02mi.dta,14,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df02mi.dta,15,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df02mi.dta,16,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df02mi.dta,17,cea,double,%10.0g,肝転移診断時CEA,,
+df02mi.dta,18,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df02mi.dta,19,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df02mi.dta,20,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df02mi.dta,21,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df02mi.dta,22,time_os_d,int,%10.0g,生存日数,,
+df02mi.dta,23,time_os_m,double,%10.0g,生存月数,,
+df02mi.dta,24,grade_mind,byte,%9.0g,missin indicator of grade,,
+df02mi.dta,25,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df02mi.dta,26,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df02mi.dta,27,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df02mi.dta,28,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df02mi.dta,29,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df02mi.dta,30,na_os,double,%10.0g,Nelson–Aalen cumulative hazard,,
+df02mi.dta,31,_mi_id,int,%8.0g,Observation ID,,
+df02mi.dta,32,_mi_miss,byte,%8.0g,,,
+df02mi.dta,33,_mi_m,byte,%8.0g,,,
+df02mi_surgery.dta,1,id,str6,%9s,全体通し番号,,
+df02mi_surgery.dta,2,sex,byte,%10.0g,sex,,
+df02mi_surgery.dta,3,age,double,%10.0g,年齢,,
+df02mi_surgery.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df02mi_surgery.dta,5,opeday,str16,%16s,原発巣手術日,,
+df02mi_surgery.dta,6,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df02mi_surgery.dta,7,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df02mi_surgery.dta,8,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df02mi_surgery.dta,9,ehd2,byte,%14.0g,Site of extrahepatic metastasis,ehd2,0=M1 (Lung); 1=M1 (Peri); 2=M1 (LN/others); 3=multiple
+df02mi_surgery.dta,10,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df02mi_surgery.dta,11,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df02mi_surgery.dta,12,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df02mi_surgery.dta,13,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df02mi_surgery.dta,14,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df02mi_surgery.dta,15,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df02mi_surgery.dta,16,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df02mi_surgery.dta,17,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df02mi_surgery.dta,18,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df02mi_surgery.dta,19,cea,double,%10.0g,肝転移診断時CEA,,
+df02mi_surgery.dta,20,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df02mi_surgery.dta,21,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df02mi_surgery.dta,22,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df02mi_surgery.dta,23,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df02mi_surgery.dta,24,time_os_d,int,%10.0g,生存日数,,
+df02mi_surgery.dta,25,time_os_m,double,%10.0g,生存月数,,
+df02mi_surgery.dta,26,grade_mind,byte,%9.0g,missin indicator of grade,,
+df02mi_surgery.dta,27,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df02mi_surgery.dta,28,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df02mi_surgery.dta,29,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df02mi_surgery.dta,30,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df02mi_surgery.dta,31,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df02mi_surgery.dta,32,na_os,double,%10.0g,Nelson–Aalen cumulative hazard,,
+df02mi_surgery.dta,33,_mi_id,int,%8.0g,Observation ID,,
+df02mi_surgery.dta,34,_mi_miss,byte,%8.0g,,,
+df02mi_surgery.dta,35,_mi_m,byte,%8.0g,,,
+df02mi_lung.dta,1,id,str6,%9s,全体通し番号,,
+df02mi_lung.dta,2,sex,byte,%10.0g,sex,,
+df02mi_lung.dta,3,age,double,%10.0g,年齢,,
+df02mi_lung.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df02mi_lung.dta,5,opeday,str16,%16s,原発巣手術日,,
+df02mi_lung.dta,6,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df02mi_lung.dta,7,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df02mi_lung.dta,8,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df02mi_lung.dta,9,ehd2,byte,%14.0g,Site of extrahepatic metastasis,ehd2,0=M1 (Lung); 1=M1 (Peri); 2=M1 (LN/others); 3=multiple
+df02mi_lung.dta,10,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df02mi_lung.dta,11,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df02mi_lung.dta,12,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df02mi_lung.dta,13,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df02mi_lung.dta,14,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df02mi_lung.dta,15,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df02mi_lung.dta,16,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df02mi_lung.dta,17,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df02mi_lung.dta,18,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df02mi_lung.dta,19,cea,double,%10.0g,肝転移診断時CEA,,
+df02mi_lung.dta,20,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df02mi_lung.dta,21,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df02mi_lung.dta,22,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df02mi_lung.dta,23,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df02mi_lung.dta,24,time_os_d,int,%10.0g,生存日数,,
+df02mi_lung.dta,25,time_os_m,double,%10.0g,生存月数,,
+df02mi_lung.dta,26,grade_mind,byte,%9.0g,missin indicator of grade,,
+df02mi_lung.dta,27,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df02mi_lung.dta,28,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df02mi_lung.dta,29,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df02mi_lung.dta,30,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df02mi_lung.dta,31,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df02mi_lung.dta,32,na_os,double,%10.0g,Nelson–Aalen cumulative hazard,,
+df02mi_lung.dta,33,_mi_id,byte,%8.0g,Observation ID,,
+df02mi_lung.dta,34,_mi_miss,byte,%8.0g,,,
+df02mi_lung.dta,35,_mi_m,byte,%8.0g,,,
+df03mi.dta,1,id,str6,%9s,全体通し番号,,
+df03mi.dta,2,sex,byte,%10.0g,sex,,
+df03mi.dta,3,age,double,%10.0g,年齢,,
+df03mi.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df03mi.dta,5,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df03mi.dta,6,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df03mi.dta,7,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df03mi.dta,8,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df03mi.dta,9,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df03mi.dta,10,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df03mi.dta,11,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df03mi.dta,12,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df03mi.dta,13,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df03mi.dta,14,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df03mi.dta,15,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df03mi.dta,16,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df03mi.dta,17,cea,double,%10.0g,肝転移診断時CEA,,
+df03mi.dta,18,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df03mi.dta,19,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df03mi.dta,20,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df03mi.dta,21,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df03mi.dta,22,time_os_d,int,%10.0g,生存日数,,
+df03mi.dta,23,time_os_m,double,%10.0g,生存月数,,
+df03mi.dta,24,grade_mind,byte,%9.0g,missin indicator of grade,,
+df03mi.dta,25,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df03mi.dta,26,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df03mi.dta,27,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df03mi.dta,28,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df03mi.dta,29,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df03mi.dta,30,na_os,double,%10.0g,Nelson–Aalen cumulative hazard,,
+df03mi.dta,31,_mi_id,int,%8.0g,Observation ID,,
+df03mi.dta,32,_mi_miss,byte,%8.0g,,,
+df03mi.dta,33,ps,float,%9.0g,Propensity Score,,
+df03mi.dta,34,mp,float,%9.0g,Marginal Prob.,,
+df03mi.dta,35,stbw,float,%9.0g,sIPTW,,
+df03mi.dta,36,ovwt,float,%9.0g,"overlap weight (Li,2018)",,
+df03mi.dta,37,sum_ow,double,%10.0g,,,
+df03mi.dta,38,w_now,double,%10.0g,Normalized overlap weight (groupwise sum=1),,
+df03mi.dta,39,n_g,int,%12.0g,,,
+df03mi.dta,40,w_sow_g,double,%10.0g,Standardized OW (group sum = n_group),,
+df03mi.dta,41,_mi_m,byte,%8.0g,,,
+df03mi_surgery.dta,1,id,str6,%9s,全体通し番号,,
+df03mi_surgery.dta,2,sex,byte,%10.0g,sex,,
+df03mi_surgery.dta,3,age,double,%10.0g,年齢,,
+df03mi_surgery.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df03mi_surgery.dta,5,opeday,str16,%16s,原発巣手術日,,
+df03mi_surgery.dta,6,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df03mi_surgery.dta,7,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df03mi_surgery.dta,8,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df03mi_surgery.dta,9,ehd2,byte,%14.0g,Site of extrahepatic metastasis,ehd2,0=M1 (Lung); 1=M1 (Peri); 2=M1 (LN/others); 3=multiple
+df03mi_surgery.dta,10,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df03mi_surgery.dta,11,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df03mi_surgery.dta,12,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df03mi_surgery.dta,13,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df03mi_surgery.dta,14,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df03mi_surgery.dta,15,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df03mi_surgery.dta,16,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df03mi_surgery.dta,17,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df03mi_surgery.dta,18,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df03mi_surgery.dta,19,cea,double,%10.0g,肝転移診断時CEA,,
+df03mi_surgery.dta,20,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df03mi_surgery.dta,21,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df03mi_surgery.dta,22,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df03mi_surgery.dta,23,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df03mi_surgery.dta,24,time_os_d,int,%10.0g,生存日数,,
+df03mi_surgery.dta,25,time_os_m,double,%10.0g,生存月数,,
+df03mi_surgery.dta,26,grade_mind,byte,%9.0g,missin indicator of grade,,
+df03mi_surgery.dta,27,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df03mi_surgery.dta,28,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df03mi_surgery.dta,29,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df03mi_surgery.dta,30,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df03mi_surgery.dta,31,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df03mi_surgery.dta,32,na_os,double,%10.0g,Nelson–Aalen cumulative hazard,,
+df03mi_surgery.dta,33,_mi_id,int,%8.0g,Observation ID,,
+df03mi_surgery.dta,34,_mi_miss,byte,%8.0g,,,
+df03mi_surgery.dta,35,ps,float,%9.0g,Propensity Score,,
+df03mi_surgery.dta,36,mp,float,%9.0g,Marginal Prob.,,
+df03mi_surgery.dta,37,stbw,float,%9.0g,sIPTW,,
+df03mi_surgery.dta,38,ovwt,float,%9.0g,"overlap weight (Li,2018)",,
+df03mi_surgery.dta,39,sum_ow,double,%10.0g,,,
+df03mi_surgery.dta,40,w_now,double,%10.0g,Normalized overlap weight (groupwise sum=1),,
+df03mi_surgery.dta,41,n_g,byte,%12.0g,,,
+df03mi_surgery.dta,42,w_sow_g,double,%10.0g,Standardized OW (group sum = n_group),,
+df03mi_surgery.dta,43,_mi_m,byte,%8.0g,,,
+df03mi_lung.dta,1,id,str6,%9s,全体通し番号,,
+df03mi_lung.dta,2,sex,byte,%10.0g,sex,,
+df03mi_lung.dta,3,age,double,%10.0g,年齢,,
+df03mi_lung.dta,4,age_cat,byte,%11.0g,年齢カテゴリ,age_cat,0=69歳以下; 1=70歳以上
+df03mi_lung.dta,5,opeday,str16,%16s,原発巣手術日,,
+df03mi_lung.dta,6,side,byte,%8.0g,Sideness,side,0=Left; 1=Right
+df03mi_lung.dta,7,grade,byte,%13.0g,Primary tumor differentiation,grade,0=Well; 1=Moderate; 2=poor/mucinous; 3=missing
+df03mi_lung.dta,8,primary_n,byte,%8.0g,Primary tumor nodal metastases,primary_n,0=N-; 1=N+; 2=missing
+df03mi_lung.dta,9,ehd2,byte,%14.0g,Site of extrahepatic metastasis,ehd2,0=M1 (Lung); 1=M1 (Peri); 2=M1 (LN/others); 3=multiple
+df03mi_lung.dta,10,ehd3,byte,%19.0g,Site of extrahepatic metastasis,ehd3,0=M1 (Lung/LN/others); 1=M1 (Peri); 2=multiple
+df03mi_lung.dta,11,trt,byte,%28.0g,処置,trt,0=Group C; 1=Group B
+df03mi_lung.dta,12,ras_mut,byte,%13.0g,K-Ras mutation status,ras_mut,0=野生型; 1=RAS/RAF変異; 2=Unknown
+df03mi_lung.dta,13,recu_6m,byte,%12.0g,Diagnosis of CRLM,recu_6m,0=Synchronous; 1=Metachronous
+df03mi_lung.dta,14,tumor_count,byte,%10.0g,腫瘍個数（摘出個数も踏まえ調整）,,
+df03mi_lung.dta,15,tumor_count_cat,byte,%8.0g,Number of hepatic lesions,tumor_count_cat,0=1; 1=2-4; 2=5以上; 3=missing
+df03mi_lung.dta,16,max_tumor,double,%10.0g,最大腫瘍径　 (cm),,
+df03mi_lung.dta,17,max_tumor_seq,double,%10.0g,最大腫瘍径　 (数列 ),,
+df03mi_lung.dta,18,tumor_size_cat,byte,%8.0g,Largest diameter of hepatic lesions,tumor_size_cat,0=≤ 5cm; 1=> 5cm; 2=missing
+df03mi_lung.dta,19,cea,double,%10.0g,肝転移診断時CEA,,
+df03mi_lung.dta,20,cea_cat,byte,%8.0g,CEA level at diagnosis,cea_cat,0=10未満; 1=10以上; 2=missing
+df03mi_lung.dta,21,ca199,double,%10.0g,肝転移診断時のCA19-9 (U/mL),,
+df03mi_lung.dta,22,ca199_cat,byte,%8.0g,CA19-9 level at diagnosis,ca199_cat,0=≤37; 1=>37; 2=missing
+df03mi_lung.dta,23,event_os,byte,%10.0g,生存：0 死亡：１,event_os,
+df03mi_lung.dta,24,time_os_d,int,%10.0g,生存日数,,
+df03mi_lung.dta,25,time_os_m,double,%10.0g,生存月数,,
+df03mi_lung.dta,26,grade_mind,byte,%9.0g,missin indicator of grade,,
+df03mi_lung.dta,27,primary_n_mind,byte,%9.0g,missin indicator of primary_n,,
+df03mi_lung.dta,28,tumor_count_cat_mind,byte,%9.0g,missin indicator of tumor_count_cat,,
+df03mi_lung.dta,29,tumor_size_cat_mind,byte,%9.0g,missin indicator of tumor_size_cat,,
+df03mi_lung.dta,30,cea_cat_mind,byte,%9.0g,missin indicator of cea_cat,,
+df03mi_lung.dta,31,ca199_cat_mind,byte,%9.0g,missin indicator of ca199_cat,,
+df03mi_lung.dta,32,na_os,double,%10.0g,Nelson–Aalen cumulative hazard,,
+df03mi_lung.dta,33,_mi_id,byte,%8.0g,Observation ID,,
+df03mi_lung.dta,34,_mi_miss,byte,%8.0g,,,
+df03mi_lung.dta,35,ps,float,%9.0g,Propensity Score,,
+df03mi_lung.dta,36,mp,float,%9.0g,Marginal Prob.,,
+df03mi_lung.dta,37,stbw,float,%9.0g,sIPTW,,
+df03mi_lung.dta,38,ovwt,float,%9.0g,"overlap weight (Li,2018)",,
+df03mi_lung.dta,39,sum_ow,double,%10.0g,,,
+df03mi_lung.dta,40,w_now,double,%10.0g,Normalized overlap weight (groupwise sum=1),,
+df03mi_lung.dta,41,n_g,byte,%12.0g,,,
+df03mi_lung.dta,42,w_sow_g,double,%10.0g,Standardized OW (group sum = n_group),,
+df03mi_lung.dta,43,_mi_m,byte,%8.0g,,,
