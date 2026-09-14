@@ -65,7 +65,7 @@ The `.gitignore` file explicitly allows individual files reviewed for publicatio
 
 The repository is hosted at [sankyoh/crlm-extrahepatic-analysis](https://github.com/sankyoh/crlm-extrahepatic-analysis). The software author is Toshiharu Mitsuhashi ([ORCID: 0000-0001-9940-0570](https://orcid.org/0000-0001-9940-0570)). Citation metadata is provided in [CITATION.cff](CITATION.cff). If you use this code in research, please cite this software.
 
-The initial software version is **1.0.0**. Releases are listed on the [GitHub Releases page](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases). Zenodo archiving and DOI assignment are pending. Once the DOI is available, please cite the DOI of the specific software version used in your analysis.
+The initial software version is **1.0.0**, with a release date of **2026-09-14**. Releases are listed on the [GitHub Releases page](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases). Zenodo archiving and DOI assignment are pending. Once the DOI is available, please cite the DOI of the specific software version used in your analysis.
 
 The initial preparation on 2026-09-08 covered code selection, preparation of public copies, codebook creation, and static review. Results and limitations of the subsequent execution checks on 2026-09-14 are described above under “Reproducibility checks and known limitations.”
 

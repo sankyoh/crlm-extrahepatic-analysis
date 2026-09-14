@@ -67,7 +67,7 @@ RのRMSTコードは `_mi_m=1` のみを使う既存の検証解析です。22�
 
 リポジトリは [sankyoh/crlm-extrahepatic-analysis](https://github.com/sankyoh/crlm-extrahepatic-analysis) です。ソフトウェアの著者は Toshiharu Mitsuhashi（[ORCID: 0000-0001-9940-0570](https://orcid.org/0000-0001-9940-0570)）です。引用情報は [CITATION.cff](CITATION.cff) に記載しています。このコードを研究に利用する際は、本ソフトウェアを引用してください。
 
-初回のソフトウェアの版番号は **1.0.0** です。リリースは [GitHubのReleasesページ](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases) に掲載します。Zenodoへの保存とDOIの発行は準備中です。DOIの取得後は、解析に使用したソフトウェアの版に対応するDOIを引用してください。
+初回のソフトウェアの版番号は **1.0.0**、リリース日は **2026-09-14** です。リリースは [GitHubのReleasesページ](https://github.com/sankyoh/crlm-extrahepatic-analysis/releases) に掲載します。Zenodoへの保存とDOIの発行は準備中です。DOIの取得後は、解析に使用したソフトウェアの版に対応するDOIを引用してください。
 
 初回の公開準備（2026-09-08）では、コード選定、公開向け整備、コードブック作成、静的確認を実施しました。その後の実行検証（2026-09-14）の結果と制限は、上記「再現性の確認範囲と既知の制限」に記載しています。
 

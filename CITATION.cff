@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata in this file."
 type: software
 version: "1.0.0"
+date-released: "2026-09-14"
 title: "Analysis code for colorectal liver metastases with extrahepatic disease"
 authors:
   - family-names: Mitsuhashi
